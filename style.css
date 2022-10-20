@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #cfcfcf;
+}
+.dms-dash {
+  padding: 5% 3%;
+}
+.dms-dash-1 {
+  /* background-color: rebeccapurple; */
+}
+.card{
+  /* width: 100%; */
+  background-color: #fff;
+  margin-bottom: .9rem;
+  padding: 20px;
+  border-radius: 5px;
+}
+.dms-dash-2 {
+  background-color: darkgoldenrod;
+}
+.dms-dash-3 {
+  background-color: dodgerblue;
+}
+.dms-dash-4 {
+  background-color: turquoise;
+}
+.dms-dash-5 {
+  background-color: gray;
+}
+
+.grid-item {
+  margin-bottom: 1rem;
+  padding: 20px;
+}
+@media (min-width: 576px) {
+  .dms-dash {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .dms-dash-1 {
+    flex-basis: 25%;
+  }
+  .right-container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+  }
+  .top-right {
+    display: flex;
+    flex-basis: 50%;
+  }
+  .bottom-right {
+    display: flex;
+    flex-basis: 50%;
+  }
+  .dms-dash-2 {
+    flex-basis: 25%;
+  }
+  .dms-dash-3 {
+    flex-basis: 75%;
+  }
+  .dms-dash-4 {
+    flex-basis: 35%;
+  }
+  .dms-dash-5 {
+    flex-basis: 65%;
+  }
+  .right-container .grid-item {
+    margin-left: 10px;
+  }
+}

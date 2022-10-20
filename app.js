@@ -1,0 +1,1 @@
+// const path_format = (str: string) => str.toLowerCase().split(' ').join('-');
